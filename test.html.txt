@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.fixed-div {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 0, 0);
+}
+
+</style>
+</head>
+<body>
+  <div class="fixed-div">
+    <p>Test</p>
+    </div>
+
+</body>
+</html>
