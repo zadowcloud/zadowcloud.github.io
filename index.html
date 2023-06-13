@@ -10,7 +10,7 @@
     }
     
     #top-bar {
-      background-color: #000;
+      background-color: #000000;
       height: 50px;
       display: flex;
       align-items: center;
@@ -53,18 +53,22 @@
     
     #image-container h2 {
       color: rgb(255, 0, 0);
-      font-size: 28px;
+      font-size: 50px; /* Increased font size to 50px */
       margin-top: 10px;
+      font-family: 'Dancing Script', cursive;
     }
     
     #image-container h3 {
       color: rgb(255, 255, 255);
+      font-family: Arial, sans-serif; /* Changed font-family back to Arial, sans-serif */
     }
     
     #news-container {
-      background-color: #fff;
+      background-image: url('spikes.png');
+      background-repeat: repeat;
       padding: 40px 20px;
       text-align: center;
+      margin-bottom: -20px; /* Add a negative margin to overlap with the contact container */
     }
     
     #news-container h2 {
@@ -92,7 +96,7 @@
       background-color: #f9f9f9;
       padding: 20px;
       text-align: center;
-      margin-top: 20px;
+      margin-top: -20px; /* Add a negative margin to overlap with the news container */
     }
     
     #contact-container h2 {
@@ -110,9 +114,7 @@
     }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="top-bar">
