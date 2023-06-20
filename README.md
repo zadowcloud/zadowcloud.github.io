@@ -1,2 +1,2 @@
 # zadowcloud.github.io
-Absolutely useless
+Protip: Click the icon
