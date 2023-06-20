@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Characters</title>
+  <title>Silksong - Characters</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       background-color: #f9f9f9;
     }
     
@@ -46,7 +46,7 @@
     }
     
     #info-container {
-      background-image: url('spikes.png');
+      background-image: url('greek-vase.png');
       background-repeat: repeat;
       padding: 40px 20px;
       text-align: center;
@@ -54,14 +54,16 @@
     }
     
     #info-container h2 {
-      font-size: 24px;
+      font-size: 45px;
       color: #000000;
+      font-family: 'Dancing Script', cursive;
     }
     
     #info-container p {
       font-size: 18px;
       margin-top: 0px;
       color: #000000;
+      font-family: 'Arial', sans-serif;
     }
     
     #info-container a {
@@ -93,12 +95,35 @@
     hr {
       display: none;
     }
+    
+    #character-section {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+    }
+    
+    #character-section img {
+      width: 300px;
+      margin-right: 20px;
+    }
+    
+    #character-section .character-info {
+      font-size: 18px;
+    }
+    
+    #character-section h3 {
+      margin-top: 0;
+    }
+    
+    #character-section h3:first-child {
+      margin-top: 5px; /* Adjust the margin here */
+    }
   </style>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="top-bar">
-    <img src="icon.png" alt="Menu Icon">
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="icon.png" alt="Menu Icon"></a>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="info.html">Info</a></li>
@@ -108,9 +133,28 @@
   </div>
   
   <div id="info-container">
-    <h2>Characters in Silksong</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies convallis justo, at ultrices lacus consequat sit amet. Aliquam vel justo et dui vulputate fringilla nec vitae est. Nulla facilisi. Aenean posuere massa id fringilla eleifend. Morbi id lobortis velit. Cras ultrices condimentum urna, nec dignissim lacus eleifend nec. Sed ut tincidunt quam. Integer cursus quam quis aliquam efficitur, et tristique arcu varius. Cras ut facilisis lacus. Sed fringilla odio eu nisl egestas, id pharetra dolor bibendum. Curabitur pellentesque erat vel nibh pellentesque, a venenatis sem vestibulum. Etiam et diam sit amet erat vulputate lobortis. Phasellus dapibus risus vel urna fermentum pretium et at lacus. Donec ultricies, ipsum eget bibendum pharetra, dui arcu placerat tortor, id ultricies nisi quam id erat.</p>
-    <p>For more details, please visit the <a href="https://example.com" target="_blank">official Silksong website</a>.</p>
+    <h2>Meet the Characters</h2>
+    <div id="character-section">
+      <img src="hornet.png" alt="Hornet Image">
+      <div class="character-info">
+        <h3>Hornet</h3>
+        <p>Hornet is a skilled warrior and the protagonist of Silksong. She wields a needle and thread as her primary weapons and embarks on a journey to unravel the mysteries of the kingdom. She possesses incredible agility and acrobatic skills, allowing her to traverse challenging terrains and engage in fast-paced combat.</p>
+      </div>
+    </div>
+    <div id="character-section">
+      <img src="lace.png" alt="Lace Image">
+      <div class="character-info">
+        <h3>Lace</h3>
+        <p>Lace is a mysterious figure in Silksong. Not much is known about Lace, but they possess powerful magical abilities. They play a significant role in the story, often assisting Hornet in her quest. Lace's motives and origins are shrouded in secrecy, adding an air of intrigue to their character.</p>
+      </div>
+    </div>
+    <div id="character-section">
+      <img src="sherma.png" alt="Sherma Image">
+      <div class="character-info">
+        <h3>Sherma</h3>
+        <p>Sherma is a loyal companion to Hornet throughout her journey in Silksong. They are known for their exceptional agility and nimbleness. Sherma's role is to provide valuable support to Hornet in battles and help her navigate challenging environments. Sherma shares a deep bond with Hornet and their presence offers both assistance and emotional support to the protagonist.</p>
+      </div>
+    </div>
   </div>
 
   <div id="contact-container">
